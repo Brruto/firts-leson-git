@@ -1,0 +1,70 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+/* This is usefull it will be good for new experience */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #edf2ff;
+  opacity: 90%;
+  z-index: 9999;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+/* with this I can point all anchor tag with class red */
+a.red {
+  color: red;
+}
+
+#list ul {
+  list-style-type: none;
+}
+
+.banner {
+  background-color: #364fc7;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#banner-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  filter: contrast(150%);
+}
+
+#can-do-it {
+  display: block;
+  color: #364fc7;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900;
+}
+.cando-section {
+  padding: 20px 50px;
+}
+
+.avatar {
+  background-image: url(../images/code-pic.jpg);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
